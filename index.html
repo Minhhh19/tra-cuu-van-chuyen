@@ -560,7 +560,7 @@ function selectCarrier(key){
     subcarrierField.style.display = 'none';
     panelA.style.display = c.hasAddress ? 'block' : 'none';
     noAddressNote.style.display = c.hasAddress ? 'none' : 'block';
-    noAddressNote.textContent = '📭 Đối tác này chưa có dữ liệu tra cứu địa chỉ.';
+    noAddressNote.textContent = 'Đối tác này chưa có dữ liệu tra cứu địa chỉ.';
     if(c.hasAddress){
       const wv = aWard.getValue();
       if(wv && aCity.getValue() && aDistrict.getValue()){
